@@ -177,6 +177,17 @@ input{
     left: 22%;
 }
 
-/* .First-line{
- display: inline-block;
-} */
+.barChar{
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    width: 488px;
+    height: 390px;
+    border-radius: 14px;
+}
+
+.barChar h1{
+    font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+margin-left: 20px;
+}

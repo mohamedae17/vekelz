@@ -9,7 +9,6 @@
 }
 main{
     width: 100%;
-    padding: 20px;
 }
 .sidebar{
     background: #FFFFFF;
@@ -85,3 +84,42 @@ color: #5F6165;
     color: #5F6165;
 }
 
+.search__box{
+    margin: 0px;
+    padding: 10px;
+    height: 45px;
+    background-color: white;
+}
+
+input{
+    background: #F5F4F6;
+    border-radius: 8px;
+    border-color: transparent;
+    width: 358px;
+    padding-left: 38px;
+    height: 36px;
+    margin-left: 15px;
+}
+
+.bs{
+    position: absolute;
+    margin: 9px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.notification-and-user{
+    position: absolute;
+    right: 30px;
+    top:12px;
+}
+
+.user{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.notification{
+    position: absolute;
+    top: 11px;
+    right: 80px;
+}

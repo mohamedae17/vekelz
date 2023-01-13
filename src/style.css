@@ -123,3 +123,60 @@ input{
     top: 11px;
     right: 80px;
 }
+
+.card{
+    width: 232px;
+    height: 266px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    color: #1F2128;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.card:hover{
+    width: 232px;
+    height: 266px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    /* primary/purple */
+    color: white;
+    background: #A162F7;
+    border-radius: 14px;
+}
+
+.card .icon{
+    position: absolute;
+    top:3%;
+    right: 45%;
+}
+
+.card .text{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card .number{
+    text-align: center;
+    padding-top: 119px;
+    padding-right: 14px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    left: 32%;
+}
+
+.card .par{
+    position: absolute;
+    bottom: 10px;
+    left: 22%;
+}
+
+/* .First-line{
+ display: inline-block;
+} */

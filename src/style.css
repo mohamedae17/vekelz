@@ -180,9 +180,10 @@ input{
 .barChar{
     margin-left: 20px;
     background-color: #FFFFFF;
-    width: 488px;
-    height: 390px;
     border-radius: 14px;
+    display: inline-block;
+    position: relative;
+    height: 350px;
 }
 
 .barChar h1{
@@ -190,4 +191,10 @@ input{
 font-size: 20px;
 line-height: 26px;
 margin-left: 20px;
+}
+
+.charts,#chartdiv{
+    display: inline-block;
+    position: relative;
+    
 }

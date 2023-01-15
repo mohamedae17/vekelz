@@ -93,7 +93,7 @@ class Chart1 extends Component{
         return (
             <div className="barChar">
                 <h1>Miles Statistics</h1>
-                <div id="chartdiv" style={{ width: "350px", height: "350px" }}></div>
+                <div id="chartdiv" style={{ width: "536px",height: "320px" }}></div>
             </div>
         );
       }
